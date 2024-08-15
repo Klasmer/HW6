@@ -43,6 +43,16 @@ public class Main {
         for (int g = 1; g <= 512; g = g * 2) {
             System.out.println(g);
         }
+
+        //Посчитайте с помощью цикла for сумму годовых накоплений, если каждый месяц вы будете откладывать по 29 000 рублей «в банку».
+        //Выведите сумму накоплений за каждый месяц в консоль в формате: «Месяц …, сумма накоплений равна … рублей».
+        System.out.println("Задача 8");
+        int savingsPerMonth = 29_000;
+        int total = 0;
+        for (int month = 1; month <= 12; month++) {
+            total = total + savingsPerMonth;
+            System.out.println("Месяц " + month + " , сумма накоплений = " + total + " рублей");
+        }
     }
 
 }
