@@ -36,6 +36,13 @@ public class Main {
         for (int f = 7; f <= 98; f = f + 7) {
             System.out.println(f);
         }
+
+        //Напишите программу, которая выводит в консоль последовательность чисел:
+        //1 2 4 8 16 32 64 128 256 512
+        System.out.println("Задача 7");
+        for (int g = 1; g <= 512; g = g * 2) {
+            System.out.println(g);
+        }
     }
 
 }
