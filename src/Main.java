@@ -11,6 +11,12 @@ public class Main {
         for (int a = 10; a >= 1; a = a - 1) {
             System.out.println(a);
         }
+
+        //Выведите в консоль все четные числа от 0 до 17.
+        System.out.println("Задача 3");
+        for (int b = 0; b <= 17; b = b + 2) {
+            System.out.println("четные числа " + b);
+        }
     }
 
 }
