@@ -65,6 +65,13 @@ public class Main {
             interest = interest + savings;
             System.out.println("Месяц " + month1 + " , сумма накоплений = " + interest + " рублей");
         }
+
+        //Напишите программу, которая выводит в консоль таблицу умножения на 2
+        System.out.println("Задача 10");
+        int number = 2;
+        for (int n = 2; n <= 10; n++) {
+            System.out.println(number + "*" + n + "=" + number * n);
+        }
     }
 
 }
