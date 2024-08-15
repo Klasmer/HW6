@@ -27,7 +27,7 @@ public class Main {
         //Напишите программу, которая выводит в консоль все високосные года, начиная с 1904 года до 2096. В консоль результат должен выводиться в формате: «… год является високосным».
         System.out.println("Задача 5");
         for (int d = 1904; d <= 2096; d = d + 4) {
-            System.out.println(d + " год является висоосным");
+            System.out.println(d + " год является високосным");
         }
 
         //Напишите программу, которая выводит в консоль последовательность чисел:
@@ -61,7 +61,7 @@ public class Main {
         int savings = 29_000;
         int interest = 0;
         for (int month1 = 1; month1 <= 12; month1++) {
-            interest = interest + interest / 100;
+            interest = interest + (interest + savings) * 1 / 100;
             interest = interest + savings;
             System.out.println("Месяц " + month1 + " , сумма накоплений = " + interest + " рублей");
         }
